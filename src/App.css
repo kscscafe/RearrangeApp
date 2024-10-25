@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif; /* フォントファミリーを指定 */
+    margin: 0; /* マージンをリセット */
+    padding: 0; /* パディングをリセット */
+    background-color: #f8f9fa; /* 背景色を薄いグレーに */
+}
+
+h1, h2 {
+    color: #333; /* タイトルの色をダークグレーに */
+}
+
+button {
+    padding: 10px 15px; /* ボタンのパディング */
+    background-color: #007bff; /* ボタンの背景色を青に */
+    color: white; /* ボタンのテキスト色を白に */
+    border: none; /* ボーダーを無効に */
+    border-radius: 5px; /* 角を丸める */
+    cursor: pointer; /* カーソルをポインターに */
+    font-size: 18px; /* ボタンの文字サイズを大きくする */
+}
+
+button:hover {
+    background-color: #0056b3; /* ホバー時の背景色 */
+}
+
+div {
+    margin: 20px; /* 各divにマージンを追加 */
+}
+
+/* 新しいクラスを追加 */
+.word-button {
+    font-size: 18px; /* ボタンの文字サイズを指定 */
+    padding: 10px 15px; /* ボタンの内側の余白を調整 */
+}

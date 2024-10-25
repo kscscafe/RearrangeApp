@@ -1,0 +1,42 @@
+/* src/index.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    font-size: 20px; 
+}
+
+h2 {
+    font-size: 15px; 
+}
+
+h1, h2 {
+    color: #333;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.fixed-button-container {
+    position: fixed; /* 固定位置に設定 */
+    bottom: 20px; /* 画面下からの距離 */
+    left: 50%; /* 中央に配置 */
+    transform: translateX(-50%); /* 左右中央揃え */
+    z-index: 1000; /* 他の要素の上に表示 */
+}
